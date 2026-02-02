@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build MiniShell-Pro",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "src/*.c",
+                "-Iinclude",
+                "-o",
+                "MiniShell-Pro"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

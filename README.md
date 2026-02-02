@@ -1,6 +1,6 @@
 # MiniShell-Pro
 
-MiniShell-Pro est un mini shell professionnel en C, modulaire et portfolio-ready.  
+MiniShell-Pro est un mini shell professionnel en C. 
 Il supporte :
 
 - Commandes système (via execvp)
